@@ -1,9 +1,133 @@
+/* style.css */
+
 body {
-  background-color: #f5f5f5;
-  font-family: sans-serif;
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  background-color: #fff;
 }
 
-h1 {
-  color: #0d7e91;
+/* ヘッダー */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0D7E91;
+}
+
+.logo span {
+  font-weight: normal;
+  color: #333;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.menu-icon {
+  display: none; /* ハンバーガーはPCでは非表示 */
+}
+
+/* ヒーローセクション */
+.hero {
+  display: flex;
+  background-color: #e6f2f4;
+  padding: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-text .catch {
+  font-size: 14px;
+  color: #555;
+}
+
+.hero-text h1 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.search-buttons {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.search-buttons button {
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  padding: 10px;
   text-align: center;
+  cursor: pointer;
+}
+
+.link {
+  font-size: 14px;
+  color: #0D7E91;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.hero-image img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* 新着情報 */
+.news {
+  background-color: #0D7E91;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.news h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.news-items {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.news-card {
+  background-color: white;
+  padding: 10px;
+  width: 200px;
+  border-radius: 4px;
+}
+
+.news-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
 }
