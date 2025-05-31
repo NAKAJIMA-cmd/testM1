@@ -2,11 +2,10 @@
 
 body {
   margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  font-family: sans-serif;
   background-color: #fff;
 }
 
-/* ヘッダー */
 .header {
   display: flex;
   justify-content: space-between;
@@ -14,17 +13,6 @@ body {
   padding: 10px 20px;
   background-color: #fff;
   border-bottom: 1px solid #eee;
-}
-
-.logo {
-  font-size: 20px;
-  font-weight: bold;
-  color: #0D7E91;
-}
-
-.logo span {
-  font-weight: normal;
-  color: #333;
 }
 
 .nav ul {
@@ -42,92 +30,37 @@ body {
 }
 
 .menu-icon {
-  display: none; /* ハンバーガーはPCでは非表示 */
+  display: none;
 }
 
-/* ヒーローセクション */
-.hero {
-  display: flex;
-  background-color: #e6f2f4;
-  padding: 30px;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.hero-text {
-  flex: 1;
-  min-width: 300px;
-}
-
-.hero-text .catch {
-  font-size: 14px;
-  color: #555;
-}
-
-.hero-text h1 {
-  font-size: 28px;
-  margin: 10px 0;
-}
-
-.search-buttons {
-  display: flex;
-  gap: 10px;
-  margin: 20px 0;
-}
-
-.search-buttons button {
-  flex: 1;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  font-size: 14px;
-  padding: 10px;
-  text-align: center;
-  cursor: pointer;
-}
-
-.link {
-  font-size: 14px;
-  color: #0D7E91;
-  text-decoration: underline;
-  margin-top: 10px;
-}
-
-.hero-image img {
-  max-width: 300px;
+.hero img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  display: block;
 }
 
-/* 新着情報 */
 .news {
   background-color: #0D7E91;
-  color: white;
-  padding: 40px 20px;
   text-align: center;
+  padding: 40px 20px;
 }
 
-.news h2 {
-  font-size: 24px;
-  margin-bottom: 30px;
+.news-title {
+  max-width: 300px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .news-items {
   display: flex;
-  gap: 20px;
   justify-content: center;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
 .news-card {
-  background-color: white;
-  padding: 10px;
   width: 200px;
-  border-radius: 4px;
-}
-
-.news-card img {
-  width: 100%;
   height: auto;
+  background-color: #fff;
   border-radius: 4px;
 }
