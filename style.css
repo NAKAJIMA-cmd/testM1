@@ -28,6 +28,10 @@ body {
   color: #333;
   font-size: 14px;
 }
+#main-image {
+  width: 300px;
+  height: auto;
+}
 
 .menu-icon {
   display: none;
