@@ -29,10 +29,7 @@ body {
   font-size: 26px;
 }
 
-#main-image {
-  width: 150px;
-  height: auto;
-}
+#main-image ç
 
 .menu-icon {
   display: none;
@@ -43,6 +40,11 @@ body {
   height: auto;
   display: block;
 }
+
+＃overlay-BG {
+  width: 100%;
+  height: auto;
+  display: block;
 
 .news {
   background-color: #0D7E91;
