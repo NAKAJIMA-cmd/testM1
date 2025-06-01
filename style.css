@@ -32,7 +32,9 @@ body {
 #main-image ç
 
 .menu-icon {
-  display: none;
+   width: 100%;
+  height: auto;
+  display: block
 }
 
 .hero img {
