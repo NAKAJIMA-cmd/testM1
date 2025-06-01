@@ -41,7 +41,7 @@ body {
   display: block
 }
 
-.hero img {
+#image-wrapper {
   width: 100%;
   height: auto;
   display: block;
