@@ -29,7 +29,11 @@ body {
   font-size: 26px;
 }
 
-#main-image ç
+#main-image {
+  width: 50%;
+  height: auto;
+  display: block;
+}
 
 .menu-icon {
    width: 100%;
