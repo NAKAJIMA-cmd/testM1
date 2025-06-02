@@ -42,7 +42,7 @@ body {
 }
 
 .menu-icon img {
-  width: 15px; /* 適宜調整 */
+  width: 30px; /* 適宜調整 */
   height: auto;
   display: block;
   cursor: pointer;
@@ -72,7 +72,7 @@ body {
 }
 
 .button-img {
-  width: 20px; /* 適宜調整 */
+  width: 40px; /* 適宜調整 */
   height: auto;
   cursor: pointer;
 }
