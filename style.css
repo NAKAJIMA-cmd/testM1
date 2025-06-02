@@ -15,6 +15,12 @@ body {
   border-bottom: 1px solid #eee;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 .nav ul {
   list-style: none;
   display: flex;
