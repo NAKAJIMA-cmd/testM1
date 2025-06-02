@@ -175,3 +175,32 @@ body {
   margin: 0;
   font-family: "游ゴシック", "Yu Gothic", sans-serif;
 }
+
+
+.news-detail .container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-family: "游ゴシック", "Yu Gothic", sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.detail-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #0D7E91;
+}
+
+.detail-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.detail-description {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.7;
+}
