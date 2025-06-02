@@ -6,6 +6,12 @@ body {
   background-color: #fff;
 }
 
+.header,
+.nav,
+.menu-icon {
+  font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -33,6 +39,7 @@ body {
   text-decoration: none;
   color: #333;
   font-size: 25px;
+  font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif;
 }
 
 #main-image {
