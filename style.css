@@ -69,9 +69,9 @@ body {
 /* ✅ キャッチコピー画像の位置設定 */
 .catch-copy {
   position: absolute;
-  top: 10%;
+  top: 30%;
   left: 5%;
-  width: 300px;  /* 必要に応じてサイズ調整 */
+  width: 500px;  /* 必要に応じてサイズ調整 */
   height: auto;
   z-index: 3;
 }
