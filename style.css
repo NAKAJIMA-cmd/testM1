@@ -41,12 +41,11 @@ body {
   display: block;
 }
 
-.menu-icon {
-  font-size: 24px;
-  margin-left: 20px;
+.menu-icon img {
+  width: 24px; /* 適宜調整 */
+  height: auto;
+  display: block;
   cursor: pointer;
-  display: flex;
-  align-items: center;
 }
 
 .image-wrapper img {
