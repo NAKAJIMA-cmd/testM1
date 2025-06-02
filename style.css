@@ -135,22 +135,43 @@ body {
   padding: 40px 20px;
 }
 
-.news-title {
-  max-width: 300px;
-  width: 100%;
-  margin-bottom: 20px;
+.news-title-text {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: bold;
 }
 
-.news-items {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 横3カラム */
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .news-card {
-  width: 200px;
-  height: auto;
   background-color: #fff;
-  border-radius: 4px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.news-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.news-info {
+  padding: 15px;
+  background-color: #fff;
+}
+
+.news-text {
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  font-family: "游ゴシック", "Yu Gothic", sans-serif;
 }
