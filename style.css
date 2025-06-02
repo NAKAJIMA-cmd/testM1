@@ -67,6 +67,16 @@ body {
   overflow: hidden;
 }
 
+.top-button {
+  text-align: center;
+  margin-bottom: 20px; /* 下の3つのボタンとの間隔 */
+}
+
+.top-button-img {
+  width: 180px;  /* 任意。必要に応じて調整 */
+  height: auto;
+}
+
 .overlay-container {
   position: absolute;
   top: 50%;
