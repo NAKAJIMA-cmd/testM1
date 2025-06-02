@@ -86,7 +86,7 @@ body {
 }
 
 .button-img {
-  width: 150px; /* 適宜調整 */
+  width: 200px; /* 適宜調整 */
   height: auto;
   cursor: pointer;
 }
