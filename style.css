@@ -42,7 +42,7 @@ body {
 }
 
 .menu-icon img {
-  width: 24px; /* 適宜調整 */
+  width: 15px; /* 適宜調整 */
   height: auto;
   display: block;
   cursor: pointer;
