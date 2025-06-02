@@ -36,9 +36,11 @@ body {
 }
 
 .menu-icon {
-   width: 100%;
-  height: auto;
-  display: block
+  font-size: 24px;
+  margin-left: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 .image-wrapper {
