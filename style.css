@@ -48,10 +48,16 @@ body {
   cursor: pointer;
 }
 
-/* 背景画像の上にオーバーレイを重ねるための設定 */
+.hero-image {
+  width: 100vw;
+  height: auto;
+  display: block;
+}
+
 .image-wrapper {
   position: relative;
   width: 100%;
+  overflow: hidden;
 }
 
 .overlay-container {
