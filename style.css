@@ -66,6 +66,15 @@ body {
   display: block;
 }
 
+.top-header-text {
+  position: absolute;
+  top: 5%;         /* ←上からの位置（必要に応じて調整） */
+  left: 5%;        /* 左からの位置 */
+  width: 300px;    /* 画像サイズ調整 */
+  height: auto;
+  z-index: 4;
+}
+
 /* ✅ キャッチコピー画像の位置設定 */
 .catch-copy {
   position: absolute;
