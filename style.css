@@ -120,6 +120,15 @@ body {
   cursor: pointer;
 }
 
+
+.news-title-text {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: "游ゴシック", "Yu Gothic", sans-serif;
+}
+
 .news {
   background-color: #0D7E91;
   text-align: center;
