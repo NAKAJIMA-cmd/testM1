@@ -68,7 +68,7 @@ body {
 
 .top-header-text {
   position: absolute;
-  top: 5%;         /* ←上からの位置（必要に応じて調整） */
+  top: 2%;         /* ←上からの位置（必要に応じて調整） */
   left: 30%;        /* 左からの位置 */
   width: 400px;    /* 画像サイズ調整 */
   height: auto;
