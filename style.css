@@ -48,16 +48,34 @@ body {
   cursor: pointer;
 }
 
-.image-wrapper img {
+/* 背景画像の上にオーバーレイを重ねるための設定 */
+.image-wrapper {
+  position: relative;
   width: 100%;
-  height: auto;
-  display: block;
 }
 
-＃overlay-BG {
-  width: 100%;
+.overlay-container {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  background-color: rgba(255, 255, 255, 0.85); /* 白台紙 (半透明) */
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.button-img {
+  width: 100px; /* 適宜調整 */
   height: auto;
-  display: block;
+  cursor: pointer;
+}
 
 .news {
   background-color: #0D7E91;
