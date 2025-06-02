@@ -72,9 +72,10 @@ body {
 
 .button-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row; /* ← column から row に変更 */
   gap: 15px;
   align-items: center;
+  justify-content: center;
 }
 
 .button-img {
