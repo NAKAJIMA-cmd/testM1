@@ -79,7 +79,7 @@ body {
 }
 
 .button-img {
-  width: 80px; /* 適宜調整 */
+  width: 150px; /* 適宜調整 */
   height: auto;
   cursor: pointer;
 }
