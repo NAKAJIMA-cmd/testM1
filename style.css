@@ -144,7 +144,7 @@ body {
 
 .news-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 横3カラム */
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   max-width: 1000px;
   margin: 0 auto;
@@ -155,7 +155,12 @@ body {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
   text-align: left;
+}
+
+.news-card:hover {
+  transform: scale(1.02);
 }
 
 .news-img {
@@ -173,7 +178,6 @@ body {
   font-size: 16px;
   color: #333;
   margin: 0;
-  font-family: "游ゴシック", "Yu Gothic", sans-serif;
 }
 
 <!-- 以降、新着ページ -->
